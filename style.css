@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation menu styles */
+nav {
+    background-color:#473a3a; 
+    /* background-color: #333; */
+    color: orange;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* padding: 1rem; */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    /* justify-content: center; */
+    margin: 25px;
+    padding: 3px;
+}
+
+nav ul li {
+    margin-right: 5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li :hover {
+    color: red;
+
+}
+
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    height: 100px;
+    margin: 13px 10px;
+
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url(images/image.jpg.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    color: white;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add text shadow for better visibility */
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add text shadow for better visibility */
+}
+
+.hero-content .reservation-button {
+    /* padding: 1rem 2rem; */
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #6f2b2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-content .reservation-button:hover {
+    background-color: #555;
+}
+
+/* Featured dishes section styles */
+.featured-dishes {
+    padding: 2rem;
+    text-align: center;
+   
+
+}
+
+.featured-dishes h2 {
+    background-color:#473a3a; 
+    display: inline;
+    border-radius: 10px;
+    font-size: 50px;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+}
+
+.featured-dishes p {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.featured-dishes img {
+    height: 235px;
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    
+    
+}
+.biryani{
+position: absolute;
+  top: 142%; 
+  left: 9%; 
+  transform: translate(-50%, -50%); 
+  color:white; 
+  padding: 10px 20px; 
+  font-size: 30px; 
+  text-align: center;
+}
+.karahi{
+position: absolute;
+  top: 142%; 
+  left: 29%; 
+  transform: translate(-50%, -50%); 
+  color:black; 
+  padding: 10px 20px; 
+  font-size: 30px; 
+  text-align: center;
+}
+.haleem{
+position: absolute;
+  top: 142%; 
+  left: 55%; 
+  transform: translate(-50%, -50%); 
+  color:black; 
+  padding: 10px 20px; 
+  font-size: 30px; 
+  text-align: center;
+}
+.macroni{
+position: absolute;
+  top: 142%; 
+  left: 78%; 
+  transform: translate(-50%, -50%); 
+  color:black; 
+  padding: 10px 20px; 
+  font-size: 30px; 
+  text-align: center;
+}
+
+  
+
+/* Testimonials section styles */
+.testimonials {
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.testimonials h2 {
+    background-color: #473a3a;
+    display: inline;
+    font-size: 50px;
+    color: white;
+}
+
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container p {
+    font-size: 20px;
+    left: 300%;
+    margin-right: 15px;
+    text-align: left;
+    
+}
+
+@media(max-width:500px) {
+    .container{
+        text-align: left;
+    }
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}
