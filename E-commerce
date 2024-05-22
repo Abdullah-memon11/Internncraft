@@ -1,1 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Page</title>
+  <link rel="stylesheet" href="../css/shop.css">
+</head>
+
+<body>
+
+  <section class="header">
+
+    <div class="logo">
+      <img src="../images/logo1.png" alt="">
+    </div>
+
+    <div class="navbar">
+      <ul class="nav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="pages/shop.html">Shop </a></li>
+        <li><a href="../pages/product.html">Product Details</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Categories</a>
+          <div class="dropdown-content">
+            <a href="#men">Men</a>
+            <a href="#women">Women</a>
+            <a href="#kids">Kids</a>
+            <a href="#summer">Summer</a>
+            <a href="#tracksiut">Track siut</a>
+          </div>
+        </li>
+        <li><a href="Home">About US</a></li>
+        <li><a href="Home">Contact us</a></li>
+      </ul>
+
+    </div>
+   
+  </section>
+
+
+  <div class="container">
+    <div class="filter">
+      <label for="sort">Sort by:</label>
+      <select id="sort">
+        <option value="price-low">Price: Low to High</option>
+        <option value="price-high">Price: High to Low</option>
+        <option value="name">Name</option>
+      </select>
+    </div>
+
+    <div class="products">
+      <div class="product">
+        <img src="../images/Blue T-shirt.jpg" alt="Product 1">
+        <h3>Product 1</h3>
+        <p class="price">$20</p>
+        <p class="description">Description of Product 1</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="../images/Red T-shirt.jpg" alt="Product 2">
+        <h3>Product 2</h3>
+        <p class="price">$30</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/silver.jpeg" alt="Product 2">
+        <h3>Product 3</h3>
+        <p class="price">$40</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/Whie.jpeg" alt="Product 2">
+        <h3>Product 4</h3>
+        <p class="price">$50</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/Red T-shirt.jpg" alt="Product 2">
+        <h3>Product 5</h3>
+        <p class="price">$60</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/Red T-shirt.jpg" alt="Product 2">
+        <h3>Product 6</h3>
+        <p class="price">$70</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/Red T-shirt.jpg" alt="Product 2">
+        <h3>Product 7</h3>
+        <p class="price">$80</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/Red T-shirt.jpg" alt="Product 2">
+        <h3>Product 8</h3>
+        <p class="price">$90</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/Red T-shirt.jpg" alt="Product 2">
+        <h3>Product 9</h3>
+        <p class="price">$30</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/Red T-shirt.jpg" alt="Product 2">
+        <h3>Product 10</h3>
+        <p class="price">$30</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/Red T-shirt.jpg" alt="Product 2">
+        <h3>Product 11</h3>
+        <p class="price">$30</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/Red T-shirt.jpg" alt="Product 2">
+        <h3>Product 12</h3>
+        <p class="price">$30</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/Red T-shirt.jpg" alt="Product 2">
+        <h3>Product 13</h3>
+        <p class="price">$30</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="../images/Red T-shirt.jpg" alt="Product 2">
+        <h3>Product 14</h3>
+        <p class="price">$30</p>
+        <p class="description">Description of Product 2</p>
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
