@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="../css/product.css">
+</head>
+
+<body>
+
+    <section class="header">
+
+        <div class="logo">
+          <img src="../images/logo1.png" alt="">
+        </div>
+    
+        <div class="navbar">
+          <ul class="nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/shop.html">Shop </a></li>
+            <li><a href="../pages/product.html">Product Details</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropbtn">Categories</a>
+              <div class="dropdown-content">
+                <a href="#men">Men</a>
+                <a href="#women">Women</a>
+                <a href="#kids">Kids</a>
+                <a href="#summer">Summer</a>
+                <a href="#tracksiut">Track siut</a>
+              </div>
+            </li>
+            <li><a href="Home">About US</a></li>
+            <li><a href="Home">Contact us</a></li>
+          </ul>
+    
+        </div>
+
+
+
+
+    <h1>Product Details</h1>
+    <div class="product-page">
+        <div class="product-images">
+            
+            <img src="../images/Red T-shirt.jpg" alt="">
+            <h2>Name: Red T-shirt</h2>
+            <p>Description: Easy to wear comfortable t-shirt with high quality stuff for this Summer</p>
+
+            
+        <div class="product-variations">
+            <h3>Product Variations</h3>
+            <form>
+                <label for="size">Size:</label>
+                <select id="size">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+
+                <label for="color">Color:</label>
+                <select id="color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="white">White</option>
+                </select>
+            </form>
+        </div>
+
+        <div class="product-actions">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div> 
+        </div> 
+       
+
+        <div class="product-images">
+            
+            <img src="../images/Blue T-shirt.jpg" alt="">
+            <h2>Name: Blue T-shirt</h2>
+            <p>Description: Easy to wear comfortable t-shirt with high quality stuff for this Summer</p>
+
+            <div class="product-variations">
+                <h3>Product Variations</h3>
+                <form>
+                    <label for="size">Size:</label>
+                    <select id="size">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+    
+                    <label for="color">Color:</label>
+                    <select id="color">
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="white">White</option>
+                    </select>
+                </form>
+            </div>
+            <div class="product-actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+            </div> 
+
+        </div>
+
+        <div class="product-images">
+            
+            <img src="../images/silver.jpeg" alt="">
+            <h2>Name: white shirt</h2>
+            <p>Description: Easy to wear comfortable t-shirt with high quality stuff for this Summer</p>
+
+            <div class="product-variations">
+                <h3>Product Variations</h3>
+                <form>
+                    <label for="size">Size:</label>
+                    <select id="size">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+    
+                    <label for="color">Color:</label>
+                    <select id="color">
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="white">White</option>
+                    </select>
+                </form>
+            </div>
+            <div class="product-actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+            </div> 
+
+        </div>
+
+
+    </div> 
+</body>
+
+</html>
